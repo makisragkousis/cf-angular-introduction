@@ -34,14 +34,32 @@
 </div>
 
 <!-- Add child step2-person-table -->
-<div class="container mt-4 bg-info">
+<div class="container mt-2 bg-info">
+  <app-step2-person-table></app-step2-person-table>
   <app-step2-person-table></app-step2-person-table>
 </div>
 
 <hr />
-<!-- Add child step3-person-table-input -->
+<!-- Add child step3-person-table-input  -->
+
 <div class="container mt-2 bg-success">
   <app-step3-person-table-input [person]="person1"></app-step3-person-table-input>
   <app-step3-person-table-input></app-step3-person-table-input>
   <app-step3-person-table-input [person]="person2"></app-step3-person-table-input>
+</div>
+
+<!-- Add child step4-for-directive  -->
+<div class="container mt-2">
+  <h3>From Step4 Component</h3>
+  <app-step4-for-directive></app-step4-for-directive>
+</div>
+
+<!-- Add child Step5 Event bind -->
+<div class="container">
+  <h3>From Step5 Component</h3>
+  <app-step5-event-bind></app-step5-event-bind>
+</div>
+
+<div>
+  <router-outlet></router-outlet>
 </div>
