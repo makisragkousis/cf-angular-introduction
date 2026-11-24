@@ -1,6 +1,4 @@
 import { Component } from '@angular/core';
-import { email } from '@angular/forms/signals';
-import { first } from 'rxjs';
 
 @Component({
   imports: [],
