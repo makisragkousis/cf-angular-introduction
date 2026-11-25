@@ -1,7 +1,6 @@
 import { Component, EventEmitter, Input, Output } from '@angular/core';
 import { Person } from '../../shared/interfaces/person';
 import { sortBy } from 'lodash-es';
-import { NONE_TYPE } from '@angular/compiler';
 
 @Component({
   imports: [],
